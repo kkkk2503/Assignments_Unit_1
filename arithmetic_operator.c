@@ -2,6 +2,7 @@
 
 int main()
 {
+    //code for arithmetic operator
     int a,b,c,d,e,f,g;
     a=20;
     b=10;
