@@ -2,6 +2,7 @@
 
 int main()
 {
+    // code for relation operator 
     int a,b;
     a=20;
     b=10;
