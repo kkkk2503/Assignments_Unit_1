@@ -2,6 +2,9 @@
 
 int main()
 {
+  /*
+      code for ternary operato
+      */
     int m,n;
     scanf("%d",&m);
     scanf("%d",&n);
