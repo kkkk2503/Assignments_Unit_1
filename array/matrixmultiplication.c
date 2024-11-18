@@ -15,8 +15,8 @@ int main()
     if(c1!=r2)
     {
     printf("MULTIPLICATION NOT POSSIBLE");
-    return -1;
     }
+    else{
     int c[r1][c2];
     for (i = 0; i < r1; i++) 
     {
@@ -81,6 +81,7 @@ int main()
         printf("%d ", c[i][j]);
         }
      printf("\n");
+    }
     }
     return 0;
 }
