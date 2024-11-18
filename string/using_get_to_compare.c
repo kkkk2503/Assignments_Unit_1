@@ -16,5 +16,4 @@ int main()
         printf("\"%s\" is equal to \"%s\"\n",str1, str2);
     }
     return 0;
-    return 0;
 }
