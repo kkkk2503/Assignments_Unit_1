@@ -3,7 +3,7 @@
 int main()
 {
     char str1[] = "Apple";
-    char str2[] = "Cherry";
+    char str2[] = "Hello";
     int result = strcmp(str1, str2);
      if (result < 0) 
      {
