@@ -61,7 +61,6 @@ int main()
         }
         printf("\n");
         }
-        // Matrix multiplication: c = a * b
         for (i = 0; i < r1; i++) 
         {
             for (j = 0; j < c2; j++) 
@@ -72,16 +71,15 @@ int main()
                 }
             }
         }
-  // Print result matrix C
-   printf("RESULTANT MATRIX AFTER MULTIPLICATION\n");
+        printf("RESULTANT MATRIX AFTER MULTIPLICATION\n");
      for (i = 0; i < r1; i++) 
-    {
-     for (j = 0; j < c2; j++) 
         {
-        printf("%d ", c[i][j]);
+        for (j = 0; j < c2; j++) 
+          {
+             printf("%d ", c[i][j]);
+          }
+         printf("\n");
         }
-     printf("\n");
-    }
     }
     return 0;
 }
