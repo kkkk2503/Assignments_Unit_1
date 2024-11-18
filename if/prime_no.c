@@ -21,5 +21,4 @@ int main()
     {
         printf("no. is not prime");
     }
-    
 }

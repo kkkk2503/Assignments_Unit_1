@@ -11,7 +11,6 @@ int main()
         {
             z=1;
         }
-        
     }
     if (z==0)
     {
@@ -21,5 +20,4 @@ int main()
     {
         printf("no. is not prime");
     }
-    
 }
