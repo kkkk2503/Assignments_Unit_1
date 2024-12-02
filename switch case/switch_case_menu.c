@@ -7,7 +7,7 @@ int main()
     int total1,total2,total3,total4,total5,total6;
     float total,tax=0.18,txtot;
     printf("welcome\n ");
-    printf("select 1 for \n ");
+    printf("select 1 for coffee \n ");
     printf("select 2 for machiato\n ");
     printf("select 3 for macroon\n ");
     printf("select 4 for croissant\n ");
@@ -23,7 +23,7 @@ int main()
     switch (food)
     {
     case 1:
-    printf("you selected  ");
+    printf("you selected coffee");
     quantity1+=quantity;
     total1=quantity1*a;
         break;
@@ -64,9 +64,9 @@ int main()
     total=total1+total2+total3+total4+total5+total6;
     printf(" coffee %d quantity total cost %d\n",quantity1,total1);
     printf(" machiato %d quantity total cost %d\n",quantity1,total1); 
-    printf(" %d quantity total cost %d\n",quantity1,total1);
-    printf(" %d quantity total cost %d\n",quantity1,total1);
-    printf(" %d quantity total cost %d\n",quantity1,total1);
+    printf(" macroon %d quantity total cost %d\n",quantity1,total1);
+    printf(" croissant %d quantity total cost %d\n",quantity1,total1);
+    printf(" bruschetta %d quantity total cost %d\n",quantity1,total1);
     printf(" afogato %d quantity total cost %d\n",quantity1,total1);
     return 0;
 }
