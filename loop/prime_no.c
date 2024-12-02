@@ -16,7 +16,7 @@ int main()
     {
         printf(" no is a prime");
     }
-    if (z=1)
+    if (z==1)
     {
         printf("no. is not prime");
     }

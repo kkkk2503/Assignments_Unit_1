@@ -9,4 +9,12 @@ if(a>b&&b>c)
 {
     printf("a is max");
 }
+if(b>a&&b>c)
+{
+    printf("b is max");
+}
+if(c>a&&c>b)
+{
+    printf("c is max");
+}
 }
