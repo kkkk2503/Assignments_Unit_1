@@ -60,13 +60,15 @@ int main()
     scanf("%d", &i);
     }
     while(i==1);
-
+    quantity=quantity1+quantity2+quantity3+quantity4+quantity5+quantity6;
     total=total1+total2+total3+total4+total5+total6;
     printf(" coffee %d quantity total cost %d\n",quantity1,total1);
-    printf(" machiato %d quantity total cost %d\n",quantity1,total1); 
-    printf(" macroon %d quantity total cost %d\n",quantity1,total1);
-    printf(" croissant %d quantity total cost %d\n",quantity1,total1);
-    printf(" bruschetta %d quantity total cost %d\n",quantity1,total1);
-    printf(" afogato %d quantity total cost %d\n",quantity1,total1);
+    printf(" machiato %d quantity total cost %d\n",quantity2,total2); 
+    printf(" macroon %d quantity total cost %d\n",quantity3,total3);
+    printf(" croissant %d quantity total cost %d\n",quantity4,total4);
+    printf(" bruschetta %d quantity total cost %d\n",quantity5,total5);
+    printf(" afogato %d quantity total cost %d\n",quantity6,total6);
+    printf("total quantity is %d",quantity);
+    printf(" your total is %d",total);
     return 0;
 }
