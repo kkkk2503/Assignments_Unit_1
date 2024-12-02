@@ -50,7 +50,7 @@ int main()
     case 6:
     printf("you selected afogato ");
     quantity5+=quantity;
-    total5=quantity5*f;
+    total6=quantity6*f;
         break;
     default:
     printf("no dish available ");
@@ -60,6 +60,7 @@ int main()
     scanf("%d", &i);
     }
     while(i==1);
+
     quantity=quantity1+quantity2+quantity3+quantity4+quantity5+quantity6;
     total=total1+total2+total3+total4+total5+total6;
     printf(" coffee %d quantity total cost %d\n",quantity1,total1);
