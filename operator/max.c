@@ -10,14 +10,14 @@ printf("enter your third number");
 scanf("%d",&c);
 if(a>b&&b>c)
 {
-    printf("a is max with a value of %d",a);
+    printf("%d is greater than %d and %d",a,b,c);
 }
 if(b>a&&b>c)
 {
-    printf("b is max with a value of %d",b);
+    printf("%d is greater than %d and %d",b,a,c);
 }
 if(c>a&&c>b)
 {
-    printf("c is max with a value of %d",c);
+    printf("%d is greater than %d and %d",c,a,b);
 }
 }
