@@ -2,14 +2,19 @@
 #include<string.h>
 int main()
 {
-    int i,a,b;
-    char str[5],strp[5];
-    a=strlen(str);
-    b=a-1;
-    printf("enter string ");
+    char str[100],strp[100];
     scanf("%s",&str);
-    for ( i = a; i >= 0; i--)
+    strcpy(strp,str);
+    strrev(strp);
+    int result=strcmp(str,strp);
+    
+    if(result==0)
     {
-    printf("%c",str[i]);
-    } 
+        printf("The string is palindrome: %s",strp);
+    }
+    else
+    {
+        printf("The string is not palindrome %s",strp);
+    }
+    return 0;
 }
