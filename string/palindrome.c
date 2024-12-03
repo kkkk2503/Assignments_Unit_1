@@ -7,7 +7,6 @@ int main()
     strcpy(strp,str);
     strrev(strp);
     int result=strcmp(str,strp);
-    
     if(result==0)
     {
         printf("The string is palindrome: %s",strp);
