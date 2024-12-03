@@ -4,6 +4,7 @@ int main()
 {
     char str[100],strp[100];
     scanf("%s",&str);
+    strlwr(str);
     strcpy(strp,str);
     strrev(strp);
     int result=strcmp(str,strp);
