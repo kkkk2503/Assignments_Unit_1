@@ -12,11 +12,11 @@ int main()
     struct employee emp1, emp2;
     strcpy(emp1.name, "kartik ");
     strcpy(emp1.position, "ceo");
-    emp1.id=585858585;
+    emp1.id=1;
 
     strcpy(emp2.name, "aryan");
-    strcpy(emp2.position, "game developer");
-    emp2.id=5634365;
+    strcpy(emp2.position, "head game developer");
+    emp2.id=7;
     
     printf("detail of employee 1 \nname: %s\n",emp1.name);
     printf("position: %s\n",emp1.position);
