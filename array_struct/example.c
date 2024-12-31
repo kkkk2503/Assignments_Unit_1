@@ -4,25 +4,30 @@
 {
     char name[50];
     int roll;
-    float marks;
+    int marks;
  } 
-student;
+Student;
 int main()
 {
-struct Student student;
-    printf("Enter name of students:\n");
-    fgets(student.name, sizeof(student.name), stdin);
-    printf("Enter roll number:\n");
-    scanf("%d", &student.roll);
-    printf("Enter marks:\n");
-    scanf("%f", &student.marks);
+struct Student student[5];
 
-
-    printf("Displaying Information\n");
-    printf("Name: ");
-    fputs(student.name, stdout);
-    printf("Roll number: %d\n", student.roll);
-    printf("Marks: %f\n", student.marks);
-
+    for(int i = 0; i < 5; i++)
+    {
+        printf("Enter name of students:\n");
+        fgets(student[i].name, sizeof(student[i].name), stdin);
+        printf("Enter roll number:\n");
+        scanf("%d", &student[i].roll);
+        printf("Enter marks:\n");
+        scanf("%d", &student[i].marks);
+        getchar();
+    }
+    for ( int i = 0; i < 5; i++)
+    {
+        printf("\n\nDisplaying Information of student %d\n",i+1);
+        printf("Name: ");
+        fputs(student[i].name, stdout);
+        printf("Roll number: %d\n", student[i].roll);
+        printf("Marks: %d\n", student[i].marks);
+    }
     return 0;
 }
