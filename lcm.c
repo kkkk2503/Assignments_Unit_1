@@ -8,8 +8,10 @@ int main()
     printf("enter second number");
     scanf("%d",&num2);
     a=(num1>num2)?num1:num2;
-    for (lcm = a; lcm <= num1 * num2; lcm += a) {
-        if (lcm % num1 == 0 && lcm % num2 == 0) {
+    for (lcm = a; lcm <= num1 * num2; lcm += a) 
+    {
+        if (lcm % num1 == 0 && lcm % num2 == 0) 
+        {
             break;
         }
     }
