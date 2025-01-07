@@ -9,9 +9,12 @@
 Student;
 int main()
 {
-struct Student student[5];
+    int a;
+    printf("enter the number of students");
+    scanf("%d",&a);
+    struct Student student[a];
 
-    for(int i = 0; i < 5; i++)
+    for(int i = 0; i < a; i++)
     {
         printf("Enter name of students:\n");
         fgets(student[i].name, sizeof(student[i].name), stdin);
@@ -21,7 +24,7 @@ struct Student student[5];
         scanf("%d", &student[i].marks);
         getchar();
     }
-    for ( int i = 0; i < 5; i++)
+    for ( int i = 0; i < a; i++)
     {
         printf("\n\nDisplaying Information of student %d\n",i+1);
         printf("Name: ");
