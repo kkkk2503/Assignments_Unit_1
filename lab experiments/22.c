@@ -3,8 +3,8 @@
 int main()
 {
     int food,i,a=230,b=120,c=40,d=130,e=300,f=299;
-    int quantity,quantity1,quantity2,quantity3,quantity4,quantity5,quantity6;
-    int total1,total2,total3,total4,total5,total6;
+    int quantity=0,quantity1=0,quantity2=0,quantity3=0,quantity4=0,quantity5=0,quantity6=0;
+    int total1=0,total2=0,total3=0,total4=0,total5=0,total6=0;
     float total,tax=0.18,txtot;
     printf("welcome\n ");
     printf("select 1 for coffee \n ");
@@ -69,7 +69,9 @@ int main()
     printf(" croissant %d quantity total cost %d\n",quantity4,total4);
     printf(" bruschetta %d quantity total cost %d\n",quantity5,total5);
     printf(" afogato %d quantity total cost %d\n",quantity6,total6);
-    printf("total quantity is %d",quantity);
-    printf(" your total is %d",total);
+    printf("total quantity is %d\n",quantity);
+    printf(" your total is %d\n",total);
+    txtot=total+(total*tax);
+    printf(" your total with tax is %f",txtot);
     return 0;
 }
