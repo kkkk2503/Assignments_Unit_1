@@ -66,7 +66,7 @@ void append_file()
         return 1;
     }
 
-    printf("Enter text to append (enter a blank line to stop):\n");
+printf("Enter text to append (enter a blank line to stop):\n");
 
     while (1) {
         fgets(line, sizeof(line), stdin);

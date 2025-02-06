@@ -1,17 +1,13 @@
 #include <stdio.h>
-
 int add(int a, int b) {
     return a + b;
 }
-
 int subtract(int a, int b) {
     return a - b;
 }
-
 int multiply(int a, int b) {
     return a * b;
 }
-
 float divide(int a, int b) {
     if (b != 0) {
         return (float)a / b;
@@ -20,7 +16,6 @@ float divide(int a, int b) {
         return 0;
     }
 }
-
 int modulus(int a, int b) {
     if (b != 0) {
         return a % b;
@@ -29,7 +24,6 @@ int modulus(int a, int b) {
         return 0;
     }
 }
-
 int main() {
     int choice, a, b;
     float result = 0;
@@ -45,7 +39,7 @@ int main() {
         printf("Enter your choice (1-5): ");
         scanf("%d", &choice);
 
-        printf("Do you want to use the result of the previous calculation? (y/n): ");
+printf("Do you want to use the result of the previous calculation? (y/n): ");
         scanf(" %c", &use_prev_result);
 
         if (use_prev_result == 'y' || use_prev_result == 'Y') {
@@ -87,6 +81,5 @@ int main() {
         scanf(" %c", &cont); // Note the space before %c to consume any leftover newline character
 
     } while (cont == 'y' || cont == 'Y');
-
     return 0;
 }

@@ -28,7 +28,7 @@ void read_records(const char *filename) {
     Student student;
     printf("Student Records:\n");
     while (fread(&student, sizeof(Student), 1, file)) {
-        printf("ID: %d, Name: %s, Grade: %.2f\n", student.id, student.name, student.grade);
+printf("ID: %d, Name: %s, Grade: %.2f\n", student.id, student.name, student.grade);
     }
 
     fclose(file);

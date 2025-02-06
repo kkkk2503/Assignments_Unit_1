@@ -3,7 +3,7 @@
 int main()
 {
     char str[100],strp[100];
-    printf("enter a string that you want to check if its a pallindrome");
+printf("enter a string that you want to check if its a pallindrome");
     scanf("%s",&str);
     strlwr(str);
     strcpy(strp,str);

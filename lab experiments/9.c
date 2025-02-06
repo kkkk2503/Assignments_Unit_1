@@ -1,5 +1,4 @@
 #include<stdio.h>
-
 int main()
 {
     int num,largest,smallest,i;
@@ -27,8 +26,6 @@ int main()
         smallest=arr[i];
        }
     }
-    printf("the largest number is %d \n the smallest is %d",largest,smallest);
-
-    
+printf("the largest number is %d \n the smallest is %d",largest,smallest);  
     return 0;
 }
