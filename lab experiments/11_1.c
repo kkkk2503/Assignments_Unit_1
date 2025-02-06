@@ -6,8 +6,8 @@ int main() {
     FILE *file;
 
     printf("Enter the file name: ");
-    gets(fileName);
-    
+    fgets(fileName, sizeof(fileName), stdin);
+
     file = fopen(fileName, "w");
     if (file == NULL) {
         printf("Error opening file!\n");
